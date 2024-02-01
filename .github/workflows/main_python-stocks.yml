@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'python-stocks'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_CLIENTID_46784A12ADF24DF9A9F6C39FF117CF46 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
