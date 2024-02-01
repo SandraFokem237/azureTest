@@ -75,4 +75,5 @@ jobs:
         with:
           app-name: 'app-systemsc-dev-dxb-001'
           slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_CLIENTID_46784A12ADF24DF9A9F6C39FF117CF46 }}
           
